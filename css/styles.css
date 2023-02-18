@@ -129,24 +129,11 @@ p {
   color: var(--active-color);
 }
 
-/* .header-contact::before {
-  content: "";
-  background: url("../images/icons.svg#icon-envelope");
-  background-size: contain;
-  height: 20px;
-  width: 20px;
-  border: 1px solid black;
-  display: inline-block;
-  background-repeat: no-repeat;
-  fill: var(--p-color);
-} */
-
 .contact-icon {
   height: 16px;
   width: 16px;
   fill: var(--p-color);
   padding-right: 10px;
-  padding-bottom: 0;
 }
 
 .contact-icon:hover {
@@ -167,6 +154,13 @@ p {
   display: flex;
   align-items: baseline;
   gap: 70px;
+}
+
+.footer-items h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -227,13 +221,16 @@ p {
 
 /* index main start */
 .page-title {
-  /* background-color: var(--bg-color); */
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/bgimg.jpg);
+  background-color: var(--bg-color);
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bgimg.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   height: 600px;
 }
 
@@ -286,6 +283,14 @@ p {
   flex-basis: calc((100% - 90px) / 4);
 }
 
+.advantages-icon {
+  background-color: var(--button-color);
+  margin-bottom: 30px;
+  height: 70px;
+  width: 70px;
+  padding: 25px 100px;
+}
+
 .service-section h2 {
   text-align: center;
   font-weight: 700;
@@ -326,13 +331,9 @@ p {
   margin-bottom: 50px;
 }
 
-.team-section ul {
+.team-members {
   display: flex;
   gap: 30px;
-}
-
-.team-section li {
-  flex-basis: 260px;
 }
 
 .team-section figure {
@@ -363,16 +364,14 @@ p {
   display: flex;
   gap: 10px;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .social-icon li {
-  display: flex;
-  gap: 10px;
   height: 20px;
   width: 20px;
   fill: var(--icon-color);
   padding: 12px;
-  justify-content: center;
 }
 
 .social-icon svg {
