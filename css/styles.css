@@ -125,11 +125,11 @@ p {
   letter-spacing: 0.02em;
 }
 
-/* .header-contact:hover,
+.header-contact:hover,
 .header-contact:focus {
   color: var(--active-color);
-  cursor: pointer;
-} */
+  fill: var(--active-color);
+}
 
 .contact-icon {
   height: 16px;
@@ -138,15 +138,8 @@ p {
   padding-right: 10px;
 }
 
-/* .contact-icon:hover {
+.contact-icon:hover {
   fill: var(--active-color);
-  cursor: pointer;
-} */
-
-.contact-list li:hover {
-  color: var(--active-color);
-  fill: var(--active-color);
-  cursor: pointer;
 }
 
 /* header end */
