@@ -39,7 +39,7 @@ p {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -452,7 +452,7 @@ p {
 
 .projects-section img {
   display: block;
-  max-width: 370px;
+  width: 100%;
 }
 
 .projects-section ul {
